@@ -1,0 +1,50 @@
+html {
+    overflow: hidden;
+    display:flex;justify-content:center;align-items:center;
+}
+
+#app {
+    text-align: -webkit-center;
+}
+
+#colorsTable {
+    border-spacing: 0;
+    border-collapse: collapse;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.cell {
+    width: 28px;
+    height: 28px;
+    border: 1px black solid;
+}
+
+.whiteTable > tr > .clickedCell {
+    background: black;
+}
+
+.whiteTable > tr > td {
+    background: white;
+}
+
+.blackTable > tr > .clickedCell {
+    background: white;
+}
+
+.blackTable > tr >  td {
+    background: black;
+}
+
+.changeColorsButton {
+    margin: 30px 0 0 0;
+    color: #232323;
+    background: transparent;
+    border: 3px solid #232323;
+    font-size: 17px;
+    letter-spacing: .3em;
+    font-family: 'Montserrat', sans-serif;
+    padding: 17px 34px 17px 39px;
+    cursor: pointer;
+}
